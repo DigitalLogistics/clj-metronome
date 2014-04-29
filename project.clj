@@ -5,4 +5,5 @@
                  [cheshire "5.3.1"]
                  [stylefruits/gniazdo "0.1.0"]
                  [clj-time "0.7.0"]
-                 [prismatic/schema "0.2.1"]])
+                 [prismatic/schema "0.2.1"]]
+  :main clj-metronome.core)
