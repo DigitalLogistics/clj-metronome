@@ -1,6 +1,8 @@
 (defproject clj-metronome "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
+                 [org.clojure/core.async "0.1.298.0-2a82a1-alpha"]
                  [org.clojure/core.match "0.2.1"]
-                 [http-kit "2.1.16"]
+                 [cheshire "5.3.1"]
+                 [stylefruits/gniazdo "0.1.0"]
+                 [clj-time "0.7.0"]
                  [prismatic/schema "0.2.1"]])
