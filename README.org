@@ -1,0 +1,18 @@
+* clj-metronome
+
+A Clojure Schema for Metronome data, and a live checker to ensure that
+it's up-to-date.
+
+** Running
+
+To run the validator:
+
+#+BEGIN_SRC sh
+lein run
+#+END_SRC
+
+...or you can specify a server and timeout (in milliseconds):
+
+#+BEGIN_SRC sh
+lein run api.dev.fynder.io:8001 5000
+#+END_SRC
